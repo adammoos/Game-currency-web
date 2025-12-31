@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact form</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"  crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">	
+</head>
+<body>
+    <div class="wrapper" id="app">
+        <div class="card-form">
+          <div class="card-list">
+            <div class="card-item">
+              <div class="card-item__side -front">
+                <div class="card-item__focus" ></div>
+                <div class="card-item__cover">
+                </div>
+                <div class="card-item__wrapper">
+                  <div class="card-item__top"> 
+                    <div class="card-item__type">
+
+                    </div>
+                  </div>
+                  <div class="card-item__content">
+                    <label for="cardName" class="card-item__info">
+                      <div class="card-item__holder">Card Holder</div>
+                        <div class="card-item__name">Name</div>
+                    </label>
+                    <div class="card-item__date" ref="cardDate">
+                      <label for="cardMonth" class="card-item__dateTitle">Expires</label>
+                      </label>
+                      <label for="cardYear" class="card-item__dateItem">
+                          <span v-else key="2">MM/YY</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-item__side -back">
+                <div class="card-item__cover">
+                </div>
+                <div class="card-item__band"></div>
+                <div class="card-item__cvv">
+                    <div class="card-item__cvvBand">
+                  </div>
+                    <div class="card-item__type">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-form__inner">
+            <div class="card-input">
+              <label for="cardNumber" class="card-input__label">Card Number</label>
+              <input type="text" id="cardNumber" class="card-input__input">
+            </div>
+            <div class="card-input">
+              <label for="cardName" class="card-input__label">Card Holders</label>
+              <input type="text" id="cardName" class="card-input__input" >
+            </div>
+            <div class="card-form__row">
+              <div class="card-form__col">
+                <div class="card-form__group">
+                  <label for="cardMonth" class="card-input__label">Expiration Date</label>
+                  <select class="card-input__input -select" id="cardMonth">
+                    <option disabled selected>Month</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </option>
+                  </select>
+                  <select class="card-input__input -select" id="cardYear">
+                    <option disabled selected>Year</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                        <option>2028</option>
+                        <option>2029</option>
+                        <option>2030</option>
+                        <option>2031</option>
+                        <option>2032</option>
+                        <option>2033</option>
+                        <option>2034</option>
+                        <option>2035</option>
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <div class="card-form__col -cvv">
+                <div class="card-input">
+                  <label for="cardCvv" class="card-input__label">CVV</label>
+                  <input type="text" class="card-input__input" id="cardCvv" maxlength="4" >
+                </div>
+              </div>
+            </div>
+    
+            <button class="card-form__button">
+                <a href="done.html" class="a-card">
+                    Submit
+                </a>
+            </button>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

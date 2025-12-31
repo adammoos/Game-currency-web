@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Product</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Choose your Currencies</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12 col-lg-10">
+					<div class="wrap d-md-flex">
+						<div class="login-wrap p-4 p-lg-5">
+			      	<div class="d-flex">
+			      		<div class="w-100">
+			      			<h3 class="mb-4">Currencies</h3>
+			      		</div>
+								<div class="w-100">
+									<p class="social-media d-flex justify-content-end">
+										<a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
+										<a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
+									</p>
+								</div>
+			      	</div>
+							<form action="../php/buy.php" method="post" class="signin-form" id="form1">
+			      		<div class="form-group mb-3">
+			      			<label class="label" for="name">Username</label>
+			      			<input type="text" class="form-control" placeholder="Username" id="user" name ="user" required>
+			      		</div>
+		            <div class="form-group mb-3">
+		            	<label class="label" for="password">Password</label>
+		              <input type="password" class="form-control" placeholder="Password" id ="pass" name="pass" required>
+		            </div>
+					<div class="form-group mb-3">
+		            <label class="label" for="product">Product</label>
+		            <select class="form-control" name="product" id="product" onchange="price()">
+						<option disabled selected value="Product">Product</option>
+						<optgroup>
+							<option disabled>Fortnite</option>
+							<option value="1000 vbucks">1000 vbucks</option>
+							<option value="2800 vbucks">2800 vbucks</option>
+							<option value="5000 vbucks">5000 vbucks</option>
+							<option value="13500 vbucks">13500 vbucks</option>
+							<option value="Fortnite crew">Fortnite crew</option>
+							<option value="6$ bundle">6$ bundle</option>
+							<option value="10$ bundle">10$ bundle</option>
+							<option value="midas bundle">midas bundle</option>
+						</optgroup>
+						<optgroup>
+							<option disabled>Valorant</option>
+							<option value="500 vp">500 vp</option>
+							<option value="1150 vp">1150 vp</option>
+							<option value="2150 vp">2150 vp</option>
+							<option value="4400 vp">4400 vp</option>
+							<option value="5500 vp">5500 vp</option>
+							<option value="10500 vp">10500 vp</option>
+						</optgroup>
+						</select>
+		            </div>
+					<div class="form-group mb-3">
+		            <label class="label" >Price</label>
+					<label class="form-control" id="price"></label>
+		            </div>
+		            <div class="form-group">
+		            	<button type="submit" class="form-control btn btn-primary submit px-3" onclick="return (test())">Pay</button>
+		            </div>
+		            </div>
+		          </form>
+		        </div>
+		      </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/test.js"></script>
+
+	</body>
+</html>
+

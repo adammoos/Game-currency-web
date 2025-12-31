@@ -1,11 +1,1 @@
-Hi Mrs, just to inform you about some details you should do :
--change the php headers soo it can work well 
--not all the css or the javascripts are mine soo you may find some proprioreties we didnt learn ( i did learn some of them ) 
--put the work in the www folder of xmapp 
--The folder "connected part" is where the user is connected with his account 
--There are some changes between the connected part and the first homepage ( check nav,currencies page , footer , buying and payment pages )
--when the database ( php) dont work , (the req dont work) it will take you again to the same page ( for exemple when you log in , and you put wrong information , it will tell you to log again without telling you ) 
-- i wrote this in english because you learned it and you need some practice  :) 
--payment page have no php/javascript , i canceled it
--send me an email of remarks about the project to me :)
-enjoy the project ( dont forget to buy some 😉)
+This is my first website , not Fully finished but i did my best for it

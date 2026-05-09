@@ -441,12 +441,6 @@ MIT License - See [LICENSE](LICENSE) for details
 
 **Made with ❤️ as a first web project by [Mohammed Adam Mejri](https://github.com/adammoos)**
 
-Note :This is my first website , not Fully finished but i did my best for it
-
 [⬆ Back to Top](#-game-currency-web---first-web-project)
 
 </div>
-
-
-
-
